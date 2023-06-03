@@ -1,0 +1,46 @@
+.container {
+    text-align: center;
+  }
+  
+  h2 {
+    color: blue;
+  }
+  
+  .message-line {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+  }
+  
+  .container {
+    background-image: url("happy-birthday-message-blue-background-with-copy-space_23-2148351850.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+
+  p{
+    font-size:1.5rem;
+    color: rgb(230, 16, 158);
+    font-style: oblique;
+    font-weight: 500;
+}
+  
+  @media screen and (max-width: 768px) {
+    h2{
+      font-size: 2.5rem;
+    }
+    p{
+        font-size:3rem;
+        
+    }
+  }
+  
+  body{
+    background-color: lightskyblue;
+  }
